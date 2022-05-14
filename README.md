@@ -1,4 +1,3 @@
 # react-email-chips
 
-
-![react-email-badge](https://user-images.githubusercontent.com/841470/168421964-573aff65-12f5-4e2f-b082-a4aad5f93611.gif)
+![react-email-chips](https://user-images.githubusercontent.com/841470/168422016-8959553d-39c2-4a21-82e4-469097714cb9.gif)
