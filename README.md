@@ -5,10 +5,10 @@
 
 ```JSX
 <Chips 
-  chips={recipientsData} 
+  chips={[{email: 'ryan.park@gmail.com', valid: true}]} 
   placeholder='Please Add Recipients email address' 
-  pattern={emailPattern} 
-  save={handleChips} 
+  pattern={new RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);} 
+  save={(chips) => {console.log(chips)}} 
   title='Recipients' 
 />
 ```
